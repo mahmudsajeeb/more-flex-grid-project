@@ -1,0 +1,28 @@
+.container{ 
+  display: flex;
+  gap: 20px;
+
+}
+
+.box{
+  width: 100%;
+  height: 230px;
+  background-color: red;
+}
+
+
+.row{
+  height: 400px;
+  margin-bottom: 10px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.second-row{
+  display: flex;
+}
+
+.second-row > div{
+  flex: 1;
+}
